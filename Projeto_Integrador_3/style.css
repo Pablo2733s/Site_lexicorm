@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+.menu{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.menu li {
+    padding: 10px 20px;
+    list-style-type: none;
+  }
+.menu li a {
+    text-decoration: none;
+    color: rgb(44, 20, 20);
+  }
+.menu li:hover {
+    background-color: rgb(185, 223, 245);
+  }
+.Logo img {
+    width: 4%;
+    height: 2%;
+    margin-top: -35px;
+}
+.margin-container {
+    background-color: rgb(233, 244, 248);
+    margin: 50px; /* Tamanho da margem branca */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.margin-container img {
+    max-width: 50%; /* Redimensiona a imagem */
+    height: auto;
+}
+
+.margin-container p {
+    color: rgb(44, 20, 20);
+    margin-top: 10px;
+    width: 50%
+}
+.margin-container img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+h2{
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 325px;
+    padding: 10px;
+}
+.conheca-button {
+    margin-top: -10px;
+    margin-left: 595px;
+    background-color: rgb(120, 185, 208);
+    color: rgb(44, 20, 20);
+    border: none;
+    padding: 20px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.conheca-button:hover {
+    background-color: rgb(74, 114, 206);
+}
+.search-container {
+    text-align: center;
+    margin-top: -30px;
+    float: right;
+}
+.search-bar {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid rgb(44, 20, 20);
+    border-radius: 100px;
+    background-color: rgb(233, 244, 248);
+}
+
+.search-button {
+    background-color: rgb(233, 244, 248);
+    color: rgb(44, 20, 20);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 100px;
+}
+
+.search-button:hover {
+    background-color: rgba(189, 221, 239, 0.474);
+}
+
+
