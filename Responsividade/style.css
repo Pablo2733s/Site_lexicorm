@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr; /* Apenas uma coluna */
+    gap: 10px;
+}
+
+@font-face {
+    font-family: fonte;
+    src: url(Bigdex.ttf);
+}
+
+h1 {
+    font-family: fonte;
+}
+
+p {
+    font-family: fonte;
+    text-align: center;
+    font-size: 18px;
+}
+.Cabecalho {
+text-align: center;
+background-color: aliceblue;
+}
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.quadro1 {
+    background-color: rgb(231, 224, 224);
+    height: 300px;
+}
+
+.quadro2 {
+    background-color: rgb(224, 220, 220);
+    height: 680px;
+}
+
+.quadro3 {
+    background-color: brown;
+    height: 340px;
+    margin-top: -360px;
+}
+
+.Partefinal {
+    background-color: aliceblue;
+    height: 200px;
+    text-align: center;
+
+}
+
+img {
+    height: 150px;
+}
+
+@media (max-width: 600px) {
+    .Grid {
+        grid-template-columns: repeat(1,1fr)
+    }
+
+    .quadro2 {
+        height: 340px;
+    }
+
+    .quadro3 {
+        margin-top: 10px; /
+    }
+}
