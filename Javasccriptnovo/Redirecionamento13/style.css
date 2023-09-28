@@ -1,0 +1,21 @@
+h1 {
+    background-color: rgb(245, 194, 244);
+}
+.Novo2 {
+    color: blue;
+    margin-right: 200px;
+    margin-top: 200px;
+    float: right;
+}
+
+.novos {
+    text-align: center;
+}
+.Paginanova {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Novo {
+    text-align: end;
+}

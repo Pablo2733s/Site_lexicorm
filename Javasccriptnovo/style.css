@@ -1,0 +1,35 @@
+
+h1 {
+    background-color: rgb(245, 194, 244);
+}
+
+h2 {
+    text-align: center;
+}
+
+.Computador {
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+p {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.Praticar {
+    height: 80px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 800px;
+}
+
+.Praticar2 {
+    height: 80px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
