@@ -1,0 +1,230 @@
+/* .Conteiner {
+    background-color: aliceblue;
+    border: 3px solid red;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 50px auto 10%;
+    height: 25vh;
+    grid-template-rows: 50% 50%;
+    gap: 5px;
+}
+
+.Conteiner div {
+    background-color: #CCC;
+    padding: 20px;
+    border: 1px solid blue;
+} */
+
+.Container {
+    background-color: #333;
+    border: 3px solid red;
+    padding: 15px;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    'header header header header'
+    'sidebar sidebar content content'
+    'batman batman footer footer '
+    'lanternage lanternage cacadordemarte cacadordemarte'
+    'aquaman aquaman arqueiro arqueiro'
+    'ligas ligas ligas ligas';
+    grid-template-rows: repeat(6 minmax(50% auto));
+}
+
+.Container div {
+    background-color: #CCC;
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+#header {
+    grid-area: header;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    height: 50vh;
+}
+
+#content {
+    grid-area: content;
+    height: 50vh;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+#batman {
+    grid-area: batman;
+    height: 50vh;
+    
+}
+
+#lanternage {
+    grid-area: lanternage;
+    height: 50vh;
+    
+}
+
+#cacadordemarte {
+    grid-area: cacadordemarte;
+    height: 50vh;
+}
+
+#aquaman {
+    grid-area: aquaman;
+    height: 50vh;
+    
+}
+
+#arqueiro {
+    grid-area: arqueiro;
+    height: 50vh;
+}
+
+#ligas {
+    grid-area: ligas;
+    height: 50vh;
+}
+
+
+.Imagens {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.Imagens2 {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.Imagens3 {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.Imagens4 {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.Imagens5 {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.Imagens6 {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.Imagens7 {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.Imagens8 {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.flashsimbol {
+    padding: 10px;
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+
+.mulhersimbol {
+    padding: 10px;
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+
+.supermansimbol {
+    padding: 10px;
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+
+.batmansimbol {
+    padding: 10px;
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+
+.lanternasimbol {
+    padding: 10px;
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+
+.cacadorsimbol {
+    padding: 10px;
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+
+.arquamansimbol {
+    padding: 10px;
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+
+.arrowsimbol {
+    padding: 10px;
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+
+.ligasimbol {
+    padding: 10px;
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+
+}
+
+@media (max-width: 600px) {
+    .Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+    .Container div {
+        width: 100%;
+        margin-bottom: 10px;
+    #header, #sidebar, #content, #footer, #batman, #lanternage, #cacadordemarte, #aquaman, #arqueiro, #ligas {
+        height: auto;
+    }
+}
